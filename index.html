@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="css/normalise.css" />
     <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
@@ -60,8 +60,8 @@
     <section class="section-logo">
       <div class="section-logo__wrap">
         <div class="section-logo__container">
-          <div class="title">
-            <h2>
+          <div class="container-title">
+            <h2 class="container-title__text">
               The preferred localization <br />
               tool of 1500+ companies
             </h2>
@@ -250,7 +250,7 @@
       <div class="section-content__wrap">
         <div class="section-content__container">
           <div class="container__content">
-            <p>
+            <p class="container__content__text">
               “Lokalise has turned a task we were dreading into an absolute pleasure. Great platform, intuitive UX,
               powerful API. The automatic text recognition for screenshots has been a lifesaver, and over-the-air
               updates are the icing on the cake.”
@@ -259,7 +259,7 @@
             <a href="#"><img src="img/revolut.png" alt="revolut" /></a>
           </div>
           <div class="container__img">
-            <img src="img/employee.png" alt="employee" />
+            <img class="container__pic" src="img/employee.png" alt="employee" />
           </div>
         </div>
       </div>
@@ -269,12 +269,12 @@
       <div class="section-advertising__wrap">
         <div class="section-advertising__container">
           <div class="container__advertising">
-            <img src="img/cake.png" alt="cake" />
-            <h2>The most-loved translation management software</h2>
+            <img class="container__advertising__img" src="img/cake.png" alt="cake" />
+            <h2 class="container__advertising__title">The most-loved translation management software</h2>
           </div>
           <div class="container__link">
-            <img src="img/g2.png" alt="g2" />
-            <img src="img/capterra.png" alt="capterra" />
+            <img class="container__link__img" src="img/g2.png" alt="g2" />
+            <img class="container__link__img" src="img/capterra.png" alt="capterra" />
           </div>
         </div>
       </div>
@@ -283,9 +283,11 @@
     <section class="section-holder">
       <div class="section-holder__wrap">
         <div class="section-holder__container">
-          <h2>Integrate Lokalise with your work tools</h2>
-          <p>Automate processes, eliminate routine tasks, and track progress with ease.</p>
-          <img src="img/other.png" alt="other" />
+          <h2 class="section-holder__container__title">Integrate Lokalise with your work tools</h2>
+          <p class="section-holder__container__text">
+            Automate processes, eliminate routine tasks, and track progress with ease.
+          </p>
+          <img class="section-holder__img" src="img/other.png" alt="other" />
           <button class="btn__second">See all integrations</button>
         </div>
       </div>
@@ -294,8 +296,8 @@
     <section class="section-box">
       <div class="section-box__wrap">
         <div class="section-box__wrapper">
-          <h2>Localization made easy. Why wait?</h2>
-          <p>Try for free or let us show you how it works.</p>
+          <h2 class="section-box__wrapper__title">Localization made easy. Why wait?</h2>
+          <p class="section-box__wrapper__text">Try for free or let us show you how it works.</p>
           <button class="btn__second">Try it free</button>
         </div>
       </div>
@@ -368,8 +370,10 @@
 
         <div class="footer__wrapper-bottom">
           <div class="footer__wrapper-bottom__left">
-            <img src="img/lokalise.png" alt="lokalise" />
-            <p>Localization workflow for your web and mobile apps, games and digital content.</p>
+            <img class="footer__wrapper-bottom__left__img" src="img/lokalise.png" alt="lokalise" />
+            <p class="footer__wrapper-bottom__left__text">
+              Localization workflow for your web and mobile apps, games and digital content.
+            </p>
           </div>
           <div class="footer__wrapper-bottom__right">
             <span>©2001-2020</span>
